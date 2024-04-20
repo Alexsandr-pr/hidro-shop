@@ -2565,6 +2565,7 @@ input[type=range]::-moz-range-thumb {
     -webkit-transition: all 0.3s ease 0s;
     transition: all 0.3s ease 0s;
     left: -150%;
+    padding-top: 80px;
     overflow: auto;
     width: 50%;
     height: 100%;
@@ -2579,7 +2580,7 @@ input[type=range]::-moz-range-thumb {
   }
 
   .menu-mobile__list {
-    padding: 80px 15px 20px 15px;
+    padding: 10px 15px 20px 15px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -2587,6 +2588,7 @@ input[type=range]::-moz-range-thumb {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    height: 90%;
     gap: 30px;
     overflow: auto;
   }
